@@ -51,6 +51,10 @@
 # lista.pop(0)
 # print(lista.pop(0))
 
+#12 Como añadir un nuevo elemento a la lista
+# lista = [1, 2, 5]
+# lista.append(0)
+
 #13 Que es una Tupla: una tupla es un conjunto ordenado e inmutable de elementos del mismo o diferente tipo
 # tupla = (1, 5, 4)
 # type(tupla)
