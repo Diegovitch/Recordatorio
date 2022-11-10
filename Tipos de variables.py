@@ -464,3 +464,11 @@
 #     print(clave,descripción[clave])
 # imprime_liro("El ENTE", Autor = "???")
 
+#51 Funciones recursivas: Las funciones recursivas son aquellas que dentro de su algoritmo, hacen referencia a sí misma
+def cuenta_atras(n):
+  if n == 0:
+    print ("Despegando...")
+  else:
+    print("n=", n)
+    cuenta_atras(n-1)
+cuenta_atras(3)
