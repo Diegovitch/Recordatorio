@@ -38,23 +38,20 @@
 # "Hola" * 5
 # print("Hola" * 5)
 
-#9 para crear una lista:
+#9 Que es una lista: Una lista Python te permite tener otras listas que contienen varios elementos del mismo tipo o una combinación de diferentes tipos de datos
 # lista = [1, 4, 5]
 # type(lista)
 # print(lista)
 
-#10 para modificar un elmento de la lista:
-# lista[2] = "Yo que se"
+#10 como modificar un elemento
+# lista = [1, 4, 5]
+# lista[2] = 3
 
-#11 para eliminar el ultimo elemento de la lista:
+#11 para eliminar el ultimo elemento de la lista
 # lista.pop(0)
 # print(lista.pop(0))
 
-#12 para recuperar el número de una lista:
-# lista[1]
-# print(lista[1])
-
-#13 para crear una tupla:
+#13 Que es una Tupla: una tupla es un conjunto ordenado e inmutable de elementos del mismo o diferente tipo
 # tupla = (1, 5, 4)
 # type(tupla)
 # print(tupla)
@@ -70,7 +67,7 @@
 #tuple_b = ('d', 'e', 'f')
 #tuple_c = tuple_a + tuple_b
 
-# 16 Conjuntos, es como una lista, pero en conjunto, pone valores sin orden
+# 16 Conjuntos: es como una lista pero en conjunto, pone valores sin orden
 
 # Id_conjunto = { elemento1,elemento2,...,elementoN }
 # Id_conjunto = set ([elemento1,elemento2,...,elementoN])
@@ -465,10 +462,10 @@
 # imprime_liro("El ENTE", Autor = "???")
 
 #51 Funciones recursivas: Las funciones recursivas son aquellas que dentro de su algoritmo, hacen referencia a sí misma
-def cuenta_atras(n):
-  if n == 0:
-    print ("Despegando...")
-  else:
-    print("n=", n)
-    cuenta_atras(n-1)
-cuenta_atras(3)
+# def cuenta_atras(n):
+#   if n == 0:
+#     print ("Despegando...")
+#   else:
+#     print("n=", n)
+#     cuenta_atras(n-1)
+# cuenta_atras(3)
