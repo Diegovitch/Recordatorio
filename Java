@@ -1,1 +1,25 @@
+import java.util.Scanner;
+
+public class Operarios {
+	
+	public static void main(String[] ar) {
+		System.out.println("qlq cual es tu sueldo"); //mensaje de bienvenida
+		
+		Scanner teclado =new Scanner(System.in); // identifica lo que escribe el usuario 
+		//creacion de variables
+		int horasTrabajadas; 
+		float costoHora; 
+		float sueldo;
+		//creacion de la operacion
+		System.out.print("Ingrese horas trabajadas:");
+		horasTrabajadas=teclado.nextInt();
+		System.out.print("Ingrese costo de hora:");
+		costoHora=teclado.nextFloat();
+		sueldo = horasTrabajadas*costoHora;
+		System.out.print("sueldo del oeperario:");
+		System.out.println(sueldo);
+		
+	}
+
+}
 
