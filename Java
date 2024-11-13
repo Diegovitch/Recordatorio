@@ -1,3 +1,5 @@
+//Primera clase 
+
 import java.util.Scanner;
 
 public class Operarios {
