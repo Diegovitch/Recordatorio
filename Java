@@ -25,3 +25,27 @@ public class Operarios {
 
 }
 
+//Segunda clase
+
+import java.util.Scanner;
+
+public class Superficie {
+	
+	public static void main(String[] ar){
+		System.out.println("hablalo 😨");//mensaje de bienvenida
+		
+		Scanner teclado = new Scanner(System.in); //identificador de lo que escribe el usuario
+		//creacion de variables y datos
+		int lado;
+		int superficie;
+		//cracion de la operacion
+		System.out.print("ingrese el valor de los lados del cuadrado:");
+		lado= teclado.nextInt();
+		superficie= lado * lado;
+		System.out.print("valor de la superficie:");
+		System.out.print(superficie); // finalizacion de la operación
+		
+	}
+	
+
+}
